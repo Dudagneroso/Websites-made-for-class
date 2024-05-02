@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title> Loja de Roupas</title>
+	<meta name="description" content="Site de vendas de roupas" />
+	<meta http-equiv="Pragma" content="no_cache"/>
+	<meta http-equiv="refresh" content="15"/>
+	<style type="text/css">
+		body { background-color: #d3e9fa;
+				color: #5783fc;}
+
+		p {text-align:left;
+			color:  #37384b;
+			font-weight: bold;
+			font-size: 20px;
+		}
+
+		h1 {text-align:center;}
+		
+		table { background-color: #f4e5f7; }
+				
+		.img02 { max-width:640px; max-height:640px; width: 640px; height: 640px;}
+		.img04 { max-width:640px; max-height:640px; width: auto; height: auto;}
+		.img {text-align: center; }
+
+		div{
+			
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.menu{
+		 width: 8%;
+		 height: 100%;	 
+		float: left;
+		position: fixed;
+
+		background-color: #b6d5ec;
+		}
+
+		.menu ul li {
+    	display: inline-block;
+		}
+
+		.cabecalho{
+    	background-color: #b6d5ec;
+    	width: 100%;
+   		height: 50px;
+		}
+
+		.cabecalho ul li{
+    	padding-left: 20px;
+		}
+
+
+		a { color:  #37384b;
+			font-weight: bold;
+			font-size: 20px;
+			
+		}
+		
+	</style>
+</head>
+<body>
+		<h1> Roupas Femininas</h1>
+
+		<script type="text/javascript" >
+			frase = "bem-vindo(a)";
+			alert(frase);
+			</script>
+
+		
+
+		<div class="menu">
+			
+				<ul type="square">
+					<p>Menu:</p>
+					<a href="check.html"><li>Acessórios</li></a>
+					<a href="check.html"><li>Calças</li></a>
+					<a href="check.html"><li>Camisetas</li></a>
+					<a href="check.html"><li>Vestidos</li></a>
+					
+				</ul>
+		</div>
+
+		<div align="center" >
+		<table border="1px" cellpadding="15" cellspacing="0" width="1000px" frame="void" rules = "rows" >
+			
+			<thead>
+			<tr>	<th colspan="3"> Mais vendidos </th> 	</tr>
+			</thead>
+
+			<tbody>
+			<tr>
+				<td> <div class="img"><img src="camiseta.jpg" alt="Camiseta" class="img01"/></div> </td>
+				<td> Camiseta </td>
+				<td> R$ 50,00 </td>
+			</tr>
+			<tr>
+				<td> <div class="img"><img src="calca.jpg" alt="Calça" class="img02"/></div> </td>
+				<td> Calça </td>
+				<td> R$ 150,00 </td>
+			</tr>
+			<tr>
+				<td> <div class="img"><img src="vestido.webp" alt="Vestido" class="img03"/></div></td>
+				<td> Vestido </td>
+				<td> R$ 190,00 </td>
+			</tr>
+			<tr>
+				<td> <div class="img"><img src="jaqueta.jpg" alt="jaqueta" class="img04"/></div></td>
+				<td> Jaqueta </td>
+				<td> R$ 250,00 </td>
+			</tr>
+			</tbody>
+
+		</table>
+			
+
+	</div>
+
+<div class="cabecalho">
+	<hr>
+	<p>Aceitamos:</p>
+	<ul>
+		<li>PIX</li>
+		<li>Débito</li>
+		<li>Crédito</li>
+	</ul>
+	<a href="check.html" onClick='self.print()'><li>Imprimir</li></a>
+</div>
+</body>
+</html>
